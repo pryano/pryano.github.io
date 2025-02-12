@@ -11,6 +11,10 @@ challenges to address.
 5. Dynamic style changes
 6. CSS pruning
 
+> tldr; I'll keep using TailwindCSS whenever possible, as the utility classes and excellent
+documentation take most of the pain out of styling and allow me to focus on _what style
+do I want_ instead of _how do I apply the style I want_.
+
 ### Utility Classes
 TailWindCSS uses utility-class styling. This means that we have a set of class names
 that describe a style, and components are modified with whatever style names we
@@ -100,7 +104,3 @@ of tailwind and add the style programmatically.
 As described above, TailwindCSS prunes the styles to only what's used in our code.
 This is great for static content, as it keeps the style sheets pretty small.
 
-## Over Verdict
-I'll keep using TailwindCSS whenever possible, as the utility classes and excellent
-documentation take most of the pain out of styling and allow me to focus on _what style
-do I want_ instead of _how do I apply the style I want_.
